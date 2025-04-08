@@ -1,6 +1,9 @@
 
 import csv
-from models import db, Episode, Guest, Appearance
+from models import db
+from models import Episode
+from models import Guest
+from models import Appearance
 
 def import_episodes(file_path):
     with open(file_path, 'r') as csvfile:
